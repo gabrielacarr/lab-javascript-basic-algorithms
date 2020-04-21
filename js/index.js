@@ -44,4 +44,15 @@ switch (true) {
 // for(let i=0; i<hacker1.length; i++){
 //   driver.push(hacker1[i])
 // }
-console.log(  hacker1.split('').join(' ').toUpperCase()  )
+
+console.log(  hacker1.split('').join(' ').toUpperCase())
+
+console.log('3.2 Print all the characters of the navigators name, in reverse order. i.e. "nhoJ"')
+
+let navigatorReverse = []
+for(let i=hacker2.length-1; i>=0; i--){
+  console.log(i)
+  navigatorReverse.push(hacker2[i])
+}
+
+console.log(navigatorReverse.join(''))
