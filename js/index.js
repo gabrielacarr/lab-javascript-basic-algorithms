@@ -80,3 +80,20 @@ console.log(names)
 // else {
 //   console.log(`What?! You both have the same name?`)
 // }
+
+
+
+if ( hacker1.localeCompare(hacker2) === -1){
+  console.log(`The ${hacker1} name goes first.`)
+}
+else if ( hacker1.localeCompare(hacker2) === 1) {
+  console.log(`Yo, the ${hacker2} goes first definitely.`) 
+}
+else {
+  console.log(`What?! You both have the same name?`)
+}
+
+// hacker1.localeCompare(hacker2) === -1 ? : "true dogs" : "false cats"
+// // 2 + 2 === 5 ? "true dogs" : "false cats" 
+// // "false cats"
+
