@@ -20,10 +20,6 @@ if (hacker.length >hacker2.length) {
   );
 }
 
-
-// Iteration 3: Loops
-
-
 switch (true) {
   case hacker1.length > hacker2.length:
     console.log(
@@ -40,3 +36,12 @@ switch (true) {
       `Wow, you both have equally long names, ${hacker1.length} characters!`
     );
 }
+
+
+// Iteration 3: Loops
+// 3.1 Print all the characters of the driver's name, separated by a space and in capitals i.e. "J O H N"
+// let driver = [];
+// for(let i=0; i<hacker1.length; i++){
+//   driver.push(hacker1[i])
+// }
+console.log(  hacker1.split('').join(' ').toUpperCase()  )
