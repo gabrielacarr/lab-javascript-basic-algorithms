@@ -97,3 +97,36 @@ else {
 // // 2 + 2 === 5 ? "true dogs" : "false cats" 
 // // "false cats"
 
+
+
+let par1 = `25 shmeckles? I-I-I-I don't even know what that- what is that? Is that a lot? There's pros and cons to every alternate timeline. Fun facts about this one – It's got giant, telepathic spiders, 11 9/11s, and the best ice cream in the multiverse! This is because you give Morty Smith bad grades, bitch! Listen, Morty, I hate to break it to you but what people call love is just a chemical reaction that compels animals to breed`
+
+let par2 = `If you break the rules, try to leave or lose the game, you will die. Just like Saaaaw. Not today bitch! Flip the pickle over. Wow, so your origin is what? You fell into a vat of redundancy?`
+
+let par3 = `"And"? What more youtube do you want tacked on to this? I turned myself into a pickle, and 9/11 was an inside job?" He threatened to turn me in to the government, so I made him and the government go away! I'm Mr. Crowbar, and here is my friend, who is also a crowbar! Must… continue… moving… in… ways… that… lead… to… dying… with… you.`
+
+
+
+
+console.log((par1 + par2 + par3).split(' ').length)
+
+let par = par1 + par2 + par3 //Made it into one string 
+
+console.log( par.split('you').length - 1 )
+
+//RegExp 
+console.log( par.match(/you/g).length )
+
+
+
+let phraseToCheck = "A man, a plan, a canal, Panama!"
+phraseToCheck = phraseToCheck.replace(/[,! ]/g,"").toLowerCase()
+
+
+let reversePhrase = phraseToCheck.split('').reverse().join('')
+
+console.log(phraseToCheck)
+console.log(reversePhrase)
+console.log(phraseToCheck == reversePhrase)
+
+
