@@ -70,3 +70,13 @@ console.log(names)
 names.sort();
 console.log(names)
 
+
+// if(hacker1.length < hacker2.length){
+//   console.log(`The ${hacker1} name goes first.`)
+// }
+// else if (hacker2.length < hacker1.length){
+//   console.log(`Yo, the ${hacker2} goes first definitely.`)
+// } 
+// else {
+//   console.log(`What?! You both have the same name?`)
+// }
