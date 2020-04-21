@@ -56,3 +56,17 @@ for(let i=hacker2.length-1; i>=0; i--){
 }
 
 console.log(navigatorReverse.join(''))
+
+// console.log( hacker2.split('').reverse().join('') )
+
+console.log(`3.3 Depending on the lexicographic order of the strings, print:
+- The driver's name goes first.
+- Yo, the navigator goes first definitely.
+- What?! You both have the same name?`)
+
+let names = [hacker1, hacker2];
+console.log(names)
+
+names.sort();
+console.log(names)
+
